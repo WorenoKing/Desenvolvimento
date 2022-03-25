@@ -1,0 +1,271 @@
+.bodya {
+  background: #14213D;
+  height: 100%;
+}
+.btn-outline-warning{
+  margin-right: 1.5%;
+}
+.corletra {
+  color: #ffc107;
+}
+.corletra2 {
+  color: #FFFFFF;
+}
+.corletra3 {
+  color: #ff0000;
+  font-size: 75px;
+}
+.corletra4 {
+  color: #14213D;
+}
+.featurette-divider {
+  color: #ffc107;
+}
+
+
+/*Imagens*/
+
+.imgcard {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+
+
+/*Contato lateral*/
+.sh-social {
+  display: block;
+  position: fixed;
+  top: 85%;
+  right: 0px;
+  transform:  translateY(-50%);
+}
+.sh-social ul {
+  list-style: none;
+}
+.sh-social .sh-item {
+  display: block;
+}
+.sh-social .sh-item a {
+  text-align: center;
+  display: block;
+  padding: 8px;
+  margin: 0px;
+}
+.sh-social .sh-item:nth-child(1) {
+  background-color: #3b5998;
+  border: 1px solid #3b5998;
+}
+.sh-social .sh-item:hover:nth-child(1) {
+  background-color: #FFFFFF;
+  transition-duration: 0.3s;
+}
+.sh-social .sh-item:nth-child(2) {
+  background-color: #c4302b;
+  border: 1px solid #c4302b;
+}
+.sh-social .sh-item:hover:nth-child(2) {
+  background-color: #FFFFFF;
+  transition-duration: 0.3s;
+}
+.sh-social .sh-item:nth-child(3) {
+  background-color: #a4c639;
+  border: 1px solid #a4c639;
+}
+.sh-social .sh-item:hover:nth-child(3) {
+  background-color: #FFFFFF;
+  transition-duration: 0.3s;
+}
+.sh-item .fa-brands {
+  color: #FFFFFF;
+  font-size: 1.5em;
+  padding-right: -10%;
+}
+.sh-social .sh-item:hover:nth-child(1) .fa-brands {
+  color: #3b5998;
+}
+.sh-social .sh-item:hover:nth-child(2) .fa-brands {
+  color: #c4302b;
+}
+.sh-social .sh-item:hover:nth-child(3) .fa-brands {
+  color: #a4c639;
+}
+@media (max-width: 500px){
+  .sh-social {
+    display: block;
+    width: 107%;
+    top: 112%;
+    transform: translateY(-100px);
+  }
+  .sh-social ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sh-social .sh-item {
+    flex: 1;
+    text-align: center;
+  }
+  .sh-social .sh-item a {
+    padding: 4;
+  }
+}
+
+
+/*End contat lateral*/
+
+/*Imagem background*/
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 300px){
+  .contentb{
+    width:100%;
+  }
+}
+
+/*carrosel imagem*/
+
+.backimage {
+  background:  rgb(0, 0, 0) url(../img/backgroundimg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+}
+
+.contentb{
+  width: 70%;
+  margin-left: 16%;
+  padding-top: 16%;
+}
+@media (max-width: 500px) {
+  .backimage {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .contentb{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    
+  }
+  
+}
+
+/*Video promossional*/
+.video {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  
+}
+.video h1 {
+  display:flex;
+  width: 100%;
+  justify-content: center;
+}
+.video span {
+  display: flexbox;
+  width: 80%;
+  margin-left: 25%;
+}
+.video a {
+  text-decoration: none;
+}
+@media (max-width: 500px) {
+  .video {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .span {
+    margin: 80%;
+    margin-left: -5%;
+  }
+}
+/*Fim video promossional*/
+
+
+/*catalogo*/
+.catalogo {
+  width: 88%;
+  margin-left: 5.5%;
+  text-align: center;
+}
+.trilhas {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: -2.5%;
+}
+.trilhas .card {
+  display: block;
+  margin-top: 5%;
+}
+@media (max-width: 500px) {
+  .catalogo {
+    width: 100%;
+    margin: 0;
+  }
+}
+/*End Catalogo*/
+
+
+
+/*FOOTER*/
+footer {
+  margin-top: -5%;
+  margin-bottom: -9%;
+}
+.footer-copyright {
+  display: block;
+  margin-left: 11.5%;
+}
+.footer-copyright a {
+  text-decoration: none;
+}
+.topo {
+  margin-top: 35%;
+  float: right;
+}
+@media (max-width: 1500px) {
+  .topo {
+    margin-top: 0;
+    margin-bottom: 2%;
+    display: flex;
+    margin-right: 45%;
+  }
+} 
+
+@media (max-width: 500px) {
+  .footer-copyright {
+    margin-left: 5%;
+  }
+  .topo {
+    margin-top: 0;
+    margin-bottom: 10%;
+    display: flex;
+    margin-right: 42%;
+  }
+}
+
+/*END FOOTER*/
